@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Akart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+    <script type="text/javascript">
+      function showMessage(){
+        alert("Order Placed");
+        alert("Continue Shopping");
+      }
+    </script>
+  </script>
+  <style type="text/css">
+    .ff{
+      
+      padding: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="aa">
+<nav class="navbar navbar-expand-lg navbar-light  bg-warning" class="aa">
+  <a class="navbar-brand" href="#">
+    <img src="images/f.jpeg" alt="Logo" style="width:40px;">
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="ecommerce.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="offer.html">Offers</a>
+      </li>
+      <form class="form-inline my-2 my-lg-0">
+      
+    
+
+    </form>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="e.html"><b>Electronics</b></a>
+          
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="s.html"><b>Sports and Fitness</b></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="k.html"><b>Kitchen ware</b></a>
+          <a class="dropdown-item" href="f.html"><b>Furniture</b></a>
+          <a class="dropdown-item" href="c.html"><b>Clothing</b></a>
+           <a class="dropdown-item" href="b.html"><b>Bags and Wallets</b></a>
+          
+        </div>
+     
+     
+    </ul>
+    <span class="nav-item active">
+        <a class="nav-link" href="help.html">Safety</a>
+      </span>
+       </ul>
+    <span class="nav-item active">
+        <a class="nav-link" href="t.html">Todays Deals</a>
+      </span>
+   
+   
+  </div>
+</nav>
+</div>
+<div class="ff">
+<center><h3>Order Now!</h3>
+            <form action="/participants" method="POST">
+                <div>
+                    <label for="country">FirstName : </label>
+                    <input type="text" class="input" placeholder="COUNTRY" name="fname" required>
+                </div>
+                <div>
+                    <label for="totalCases">LastName : </label>
+                    <input type="text" class="input" placeholder="TOTAL CASES" name="lname" required>
+                </div>
+                <div>
+                    <label for="activeCases">Email : </label>
+                    <input type="email" class="input" placeholder="ACTIVE CASES" name="classes" required>
+                </div>
+
+                <div>
+                    <label for="recoveredCases">Address : </label>
+                    <input type="text" class="input" placeholder="RECOVERED CASES" name="stream" required>
+                </div>
+
+                <div>
+                    <label for="checkbox">I agree to the terms and conditions</label>
+                    <input id="checkbox" type="checkbox" name="checkbox" required="checkbox">
+                </div>
+                <div class="submit">
+                    <input type="submit" class="sub">
+                </div>
+            </form>
+    <a href="ecommerce.html"><input type="button" id="btnShowMsg" value="Confirm Order!" onClick='showMessage()'/></a>
+</center>
+</div>
+</div>
+</form>
+</body>
+</html>
